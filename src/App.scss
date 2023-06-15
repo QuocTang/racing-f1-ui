@@ -1,0 +1,47 @@
+.resultsarchive-content-header {
+  padding: 35px 29px 10px;
+  position: relative;
+}
+@media only screen and (min-width: 1280px) {
+  .resultsarchive-content-header h1 {
+    width: 82%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .resultsarchive-content-header h1 {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .resultsarchive-content-header h1 {
+    width: 70%;
+    font-size: 42px !important;
+    margin-bottom: 4.8rem;
+  }
+}
+
+.resultsarchive-content-header h1 {
+  text-transform: none;
+  font-family: "F1BoldRegular", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.142;
+  color: #171717;
+}
+
+@media only screen and (min-width: 768px) {
+  .resultsarchive-content-header .sponser-wrapper {
+    position: absolute;
+    right: 26px;
+    top: 28px;
+  }
+}
+
+// @media only screen and (min-width: 768px) {
+.resultsarchive-content-header .sponser-wrapper .race-header-sponsor {
+  display: inline-block;
+  max-width: 190px;
+}
+// }
